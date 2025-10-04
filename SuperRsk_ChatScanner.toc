@@ -1,0 +1,51 @@
+## Interface: 11506
+## Interface-Retail: 110002
+## Interface-Cata: 40400
+## Interface-Mists: 50400
+## Title: - SuperRsk|r - |cff00BFFFChatScanner|r |cffFF0000[PRO]|r
+## Version: 2.0.0
+## Notes: Monitor chat for crafting clients, rare items, dungeon groups, guild recruitment, world bosses, PvP events, auction deals, and more! Smart keyword filtering with real-time notifications.
+## Notes-frFR: Surveillez le chat pour trouver des clients artisans, objets rares, groupes de donjon, recrutement de guilde, boss mondiaux, événements PvP, offres d'enchères et plus ! Filtrage intelligent avec notifications en temps réel.
+## Notes-deDE: Überwachen Sie den Chat für Handwerkskunden, seltene Gegenstände, Dungeongruppen, Gildenrekrutierung, Weltbosse, PvP-Events, Auktionsangebote und mehr! Intelligente Schlüsselwortfilterung mit Echtzeit-Benachrichtigungen.
+## Notes-esES: ¡Monitorea el chat para clientes de profesiones, objetos raros, grupos de mazmorras, reclutamiento de hermandad, jefes mundiales, eventos PvP, ofertas de subasta y más! Filtrado inteligente con notificaciones en tiempo real.
+## Notes-esMX: ¡Monitorea el chat para clientes de profesiones, objetos raros, grupos de mazmorras, reclutamiento de hermandad, jefes mundiales, eventos PvP, ofertas de subasta y más! Filtrado inteligente con notificaciones en tiempo real.
+## Notes-ptBR: Monitore o chat para clientes de profissões, itens raros, grupos de masmorras, recrutamento de guilda, chefes mundiais, eventos PvP, ofertas de leilão e mais! Filtragem inteligente com notificações em tempo real.
+## Notes-ruRU: Отслеживайте чат для клиентов профессий, редких предметов, групп подземелий, набора в гильдию, мировых боссов, PvP событий, аукционных предложений и многого другого! Умная фильтрация с уведомлениями в реальном времени.
+## Notes-koKR: 전문 기술 고객, 희귀 아이템, 던전 그룹, 길드 모집, 월드 보스, PvP 이벤트, 경매 거래 등을 위한 채팅 모니터링! 실시간 알림과 함께하는 스마트 키워드 필터링.
+## Notes-zhCN: 监控聊天以寻找专业客户、稀有物品、副本队伍、公会招募、世界首领、PvP活动、拍卖交易等！智能关键词过滤与实时通知。
+## Notes-zhTW: 監控聊天以尋找專業客戶、稀有物品、副本隊伍、公會招募、世界首領、PvP活動、拍賣交易等！智能關鍵詞過濾與即時通知。
+## Author: SuperRsk
+## Version: 1.0.0
+## Category: - SuperRsk - 
+## X-Category: Chat/Communication
+## X-License: MIT
+## X-Website: https://github.com/GAMEBOOK/ChatScanner
+## X-Discord: https://discord.gg/rt385DXRUp
+## X-GitHub: https://github.com/GAMEBOOK/ChatScanner
+## SavedVariables: ChatScannerPRO_DB
+## IconTexture: Interface\Icons\INV_Misc_Note_01
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## OptionalDeps: Ace3, LibSharedMedia-3.0, LibDBIcon-1.0, LibCandyBar-3.0
+
+# External Libraries / Bibliothèques externes
+embeds.xml
+
+# Fichiers principaux
+Init.lua
+CONST.lua
+Locales.lua
+Media\Media.lua
+MessageQueue.lua
+IconPicker.lua
+Config.lua
+Core.lua
+AutoFlood.lua
+MinimapButton.lua
+
+# Interface utilisateur moderne
+UI\Bars.lua
+UI\Notifications.lua
+UI\History.lua
+UI\KeywordPreview.lua
+MenuButton.lua
